@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅行住宿</title>
+    <style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /* 背景 */
+    body{
+        background-image: url(NO2/images/background3.jpg);
+        background-attachment: fixed;
+    }
+    
+    .title{
+        position: relative;
+        width: 1420px;
+        height: 80px;
+        position:fixed;
+        /* padding: 80px; */
+        background-color: rgb(255,228,196);
+        /* padding: 0px 368px 0px 250px; */
+    }
+    .logo{
+        margin-left: 250px;
+    }
+    .a1{
+        color: rgb(85,26,139);
+        float: right;
+        margin-right: 382px;
+    }
+    .a2{
+        color: rgb(85,26,139);
+        float: right;
+        margin-right: 14px;
+    }
+    /* 设置导航条 */
+    .title div .Navigation_bar{
+        height: 30px;
+        background-color: rgb(138,43,226);
+        margin-top: -3px;
+    }
+    /* .title img{
+        margin-left: 250px;
+    } */
+    .bar a{
+        color: rgb(255,248,254);
+        /* 去掉ul前面的点 */
+        text-decoration:none;
+    }
+    .Navigation_bar ul{
+        margin-left: 150px;
+    }
+    .bar{
+        
+        
+        /* 去掉下划线 */
+        list-style: none;
+        float: left;
+        margin-left: 100px;
+        margin-top: 7px;
+    }
+    .bar:hover{
+        background-color: rgb(70,37,37);
+    }
+    .bodyy{
+        margin-left: 162px;
+    }
+    .img1{
+        margin-top: -30px;
+        /* margin-left: 162px; */
+        float: left;
+    }
+    .bodyy ul{
+        float: left;
+        list-style: none;
+        margin-left: 2px;
+        margin-top: -30px;
+        
+    }
+    /* 设置整套出租等三块介绍 */
+    .introduce{
+        width: 1100px;
+        float: left;
+        
+    }
+    .introduceleft{
+        height: 107px;
+        width: 300px;
+        background-color: rgb(240,248,255);
+        float: left;
+        margin: 10px 0px 0px 20px;
+    }
+    /* not(.head)选择不包含head的类 */
+    .introduce p:not(.head){
+    font-size: 10px;
+    color: gray;
+    }
+    .head{
+        font: 30px "黑体";
+        
+    }
+    .td1{
+        padding-top: 10px;
+    }
+
+    .introduceconter{
+        height: 107px;
+        width: 300px;
+        background-color: rgb(240,248,255);
+        float: left;
+        margin: 10px 0px 0px 20px;
+    }
+    .introduceright{
+        height: 107px;
+        width: 300px;
+        background-color: rgb(240,248,255);
+        float: left;
+        margin: 10px 0px 0px 20px;
+    }
+
+    /* 设置套餐样式 */
+
+    .mealleft{
+        width: 300px;
+        height: 350px;
+        margin-top: 50px;
+        background-color: bisque;
+        float: left;
+        margin-left: 20px;
+        
+    }
+    .mealleft h2{
+    font-size: 30px;
+    line-height: 10px;
+    margin: 30px 0 14px 111px;
+    
+    text-shadow: 0 0 3px rgb(126, 55, 55);
+    
+    }
+    .mealleft table{
+    margin: 0 auto;
+    color: grey;
+    line-height: 40px;
+    }
+    .mealleft .p1{
+        
+        line-height: 10px;
+        margin-left: 90px;
+        margin-top: -15px;
+    }
+    .mealleft p{
+        
+        line-height: 10px;
+        margin: 30px 0 14px 133px;
+    }
+    
+    .mealconter{
+        width: 300px;
+        height: 350px;
+        background-color: rgb(255,228,196);
+        float: left;
+        margin: 50px 0px 0px 20px;
+    }
+    .mealright{
+        width: 300px;
+        height: 350px;
+        background-color: rgb(255,228,196);
+        float: left;
+        margin: 50px 0px 0px 20px;
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="title">
+        <div>
+        <a class="a1" href="#">注册</a>
+        <a class="a2" href="#">登录</a>
+        <img class="logo" width="100px" height="40px" src="NO2/images/logo.png" alt="">  
+        <div class="Navigation_bar">
+            <ul>
+                <li class="bar"><a href="#">酒店预订</a></li>
+                <li class="bar"><a href="#">酒店团购</a></li>
+                <li class="bar"><a href="#">酒店环境</a></li>
+                <li class="bar"><a href="#">我的订单</a></li>
+                <li class="bar"><a href="#">返回首页</a></li>
+            </ul>
+        </div> 
+        </div>
+        
+    </div>
+
+
+    <div class="bodyy">
+        
+        <img class="img1" src="NO2/images/room1.jpg" width="780px" alt="">
+        <ul>
+            <li><img src="NO2/images/room1.jpg" width="200px" alt=""></li>
+            <li><img src="NO2/images/room2.jpg" width="200px" alt=""></li>
+            <li><img src="NO2/images/room3.jpg" width="200px" alt=""></li>
+            <li><img src="NO2/images/room5.jpg" width="200px" alt=""></li>
+        </ul>
+        <div class="introduce">
+            <div class="introduceleft">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="td1">
+                                <img src="NO2/images/house.png" width="30px" alt="">
+                            </td>
+                            <td>
+                                <p class="head">整套出租</p>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>房屋面积：</p>
+                            </td>
+                            <td>
+                                <p>30平方米</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>房屋类型：</p>
+                            </td>
+                            <td>
+                                <p>1室0厅0厨1阳台</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                    
+            </div>
+            <div class="introduceconter">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="td1">
+                                <img src="NO2/images/people.png" width="30px" alt="">
+                            </td>
+                            <td>
+                                <p class="head">宜住2人</p>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>房客独享整套房屋</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>大小适中</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                    
+            </div>
+            <div class="introduceright">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="td1">
+                                <img src="NO2/images/bed.png" width="30px" alt="">
+                            </td>
+                            <td>
+                                <p class="head">共2张</p>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>类型：</p>
+                            </td>
+                            <td>
+                                <p>单人床x张</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>规格：</p>
+                            </td>
+                            <td>
+                                <p>1.2mx2m</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                    
+            </div>
+        </div>
+        <div class="meal">
+            <div class="mealleft">
+                <h2>套餐A</h2>
+                <p>98元</p>
+                <table>
+                    <tbody>
+                        <tr class="meal_tr">
+                            <td>押金：</td>
+                            <td>不收取押金</td>
+                        </tr>
+                        <tr>
+                            <td>加客：</td>
+                            <td>不允许加客</td>
+                        </tr>
+                        <tr>
+                            <td>其他：</td>
+                            <td>不收取其他费用</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <p class="p1">居住时间：一天</p>
+                
+                <br>
+                <p class="p1">居住人数：二人</p>
+                
+
+            </div>
+            <div class="mealconter">
+
+            </div>
+            <div class="mealright">
+
+            </div>
+        </div>
+    </div>
+        
+    </div>
+
+    
+    <div class="foot">
+
+    </div>
+</body>
+</html>
